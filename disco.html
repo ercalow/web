@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>disco</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+<script>
+
+
+
+
+
+function randomColors() {
+	var listDivs = ["box1", "box2", "box3", "box4", "box5", "box6", "box7", "box8", "box9", "box10", "box11", "box12"];
+	var i;
+	for (i in listDivs) {
+		var hue = Math.floor((Math.random()*360)+1);
+		document.getElementById(listDivs[i]).style.backgroundColor ="hsl("+hue+",100%, 50%)";
+};
+};
+
+
+
+
+</script>
+
+<style>
+	.col-xs-3 {
+		height: 150px;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+</style>
+<body>
+
+<div class="container">
+	<div class="row">
+		<a href='javascript:randomColors()'>
+		<button type="button" class="btn btn-default" >discoooooo</button>
+		</a>
+	</div>
+	
+<div id='disco'>
+	<div class="row">
+		<div class='col-xs-3' id='box1'></div>
+		<div class='col-xs-3' id='box2'></div>
+		<div class='col-xs-3' id='box3'></div>
+		<div class='col-xs-3' id='box4'></div>
+	</div>
+	<div class="row">
+		<div class='col-xs-3' id='box5'></div>
+		<div class='col-xs-3' id='box6'></div>
+		<div class='col-xs-3' id='box7'></div>
+		<div class='col-xs-3' id='box8'></div>
+	</div>
+	<div class="row">
+		<div class='col-xs-3' id='box9'></div>
+		<div class='col-xs-3' id='box10'></div>
+		<div class='col-xs-3' id='box11'></div>
+		<div class='col-xs-3' id='box12'></div>
+	</div>
+
+
+
+</div>
+	
+	
+	
+	
+ 
+ </div>
+
+</body>
+</html>
